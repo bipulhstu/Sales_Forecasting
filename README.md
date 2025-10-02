@@ -7,6 +7,8 @@
 
 A comprehensive sales forecasting solution using Machine Learning and Deep Learning techniques. This project predicts future sales based on historical data, helping businesses with planning, inventory management, and meeting customer demand.
 
+🌐 **[Live Demo: Sales Forecasting Dashboard](https://sales-forecasting1.streamlit.app/)**
+
 ---
 
 ## 📝 Project Description
@@ -242,6 +244,10 @@ jupyter notebook
 
 ### Running the Streamlit Dashboard
 
+#### Option 1: Use Live Demo (Recommended)
+🌐 **[Access the Live Dashboard](https://sales-forecasting1.streamlit.app/)**
+
+#### Option 2: Run Locally
 1. **Ensure models are saved** by running cell 22 in `Part_2_Sales_Forecasting.ipynb`
 
 2. **Launch the dashboard**:
@@ -254,6 +260,8 @@ streamlit run app.py
 ---
 
 ## 🌐 Streamlit Dashboard Features
+
+**🚀 [Try the Live Dashboard](https://sales-forecasting1.streamlit.app/)**
 
 ### 📈 Make Prediction Tab
 - Select any date for prediction
@@ -368,7 +376,7 @@ This project demonstrates:
    - Add data upload functionality
 
 5. **Deployment**
-   - Deploy to cloud (AWS, Azure, GCP)
+   - ✅ Deploy to Streamlit Cloud: [Live Demo](https://sales-forecasting1.streamlit.app/)
    - Create Docker container
    - Add CI/CD pipeline
    - Implement API endpoints
@@ -410,7 +418,7 @@ This project is open source and available for educational purposes.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Kaggle** for providing the dataset
 - **Scikit-learn** community for excellent documentation
